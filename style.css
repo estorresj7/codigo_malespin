@@ -1,0 +1,53 @@
+
+body{
+    background: #000000;
+    text-align: justify;
+    margin-left:200px;
+    margin-right:200px
+}
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+        }
+h1{
+    color: #d4af37;
+    font-size: 60px; 
+}
+h2{
+    color:azure;
+    font-size: 40px;
+}
+
+h3{
+    color:#d4af37;
+    font-size: 26px;
+}
+
+h5{
+    color: #cccccc;
+    font-size: 22px;
+    text-align: center;
+  }
+
+p{
+    color: #cccccc;
+    font-size: 22px;
+  }
+
+em strong {
+    color: blanchedalmond;
+}
+
+#mision {
+    font-size:20px;
+}
+ul{
+    color: #3052eb;
+    font-size: 22px;
+    text-align:left;
+
+}
+table{
+    color:aqua
+}
