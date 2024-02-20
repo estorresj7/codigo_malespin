@@ -28,7 +28,7 @@ nav{
         text-decoration: none;
         outline-color: red;
         margin: 0 auto;
-        padding:00px 0px;
+        padding:10px 15px;
         transition:color 0.4s;
 }
 
@@ -54,6 +54,7 @@ img{
     background-color: gray;
     padding: 60px;
     text-align: center;
+    display:block;
 }
 
 h1{
