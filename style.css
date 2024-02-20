@@ -1,38 +1,52 @@
 
 body{
     background: #000000;
-    text-align: justify;
     margin-left:100px;
     margin-right:100px
+}
+nav a{
+    color:red;
+    text-align: right;
+    text-decoration: none;
+    outline-color: red;
+    margin: 0 auto;
 }
 img{
     display:block;
     margin-left:auto;
     margin-right:auto;
         }
+        /*Con respecto al estilo de la imagen puede mejorar haciendo uso height, width, por el momento esta cumpliendo con su objetivo usando propiedades en el codigo html ('si funciona no lo toque')*/
 h1{
     color: #d4af37;
-    font-size: 60px; 
+    font-size: 60px;
+    text-align:center; 
 }
 h2{
     color:azure;
     font-size: 40px;
+    text-align:left;
 }
 
 h3{
     color:#d4af37;
     font-size: 26px;
+    text-align: center;
 }
 
 h5{
     color: #cccccc;
     font-size: 22px;
     text-align: center;
+    border:4px solid whitesmoke;
+    padding:20px;
+    margin:20pxs
   }
 
 p{
     color: #cccccc;
     font-size: 22px;
+    text-align: justify;
   }
 
 em strong {
@@ -43,7 +57,7 @@ em strong {
     font-size:20px;
 }
 ul{
-    color: #3052eb;
+    color: #cccccc;
     font-size: 22px;
     text-align:left;
 
@@ -51,3 +65,11 @@ ul{
 table{
     color:aqua
 }
+
+nav {
+    color:red;
+    text-align: center;
+    text-decoration: none;
+    outline-color: red;
+    margin: 0 auto;
+    }
