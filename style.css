@@ -35,7 +35,9 @@ nav{
 nav a:hover{
     color:white;
 }
-
+nav a:active{
+    font-weight:bold;
+}
 a{
         color:red;
         text-decoration: none;
@@ -48,20 +50,21 @@ img{
     padding:40px;
         }
         /*Con respecto al estilo de la imagen puede mejorar haciendo uso height, width, por el momento esta cumpliendo con su objetivo usando propiedades en el codigo html ('si funciona no lo toque')*/
-.titulo{
-    background-color: gray;
+.titulo {
     padding: 60px;
     text-align: center;
-    display:block;
 }
-
-h1{
-    display:block;
+            
+h1 {
     color: #d4af37;
     font-size: 64px;
     font-weight: bold;
-    text-align:center;   
-    }
+}
+            
+.titulo, h1 {
+    background-color: gray;
+    text-align: center;
+}
 h2{
     color:azure;
     font-size: 40px;
